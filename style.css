@@ -1,0 +1,203 @@
+
+* {
+margin: 0;
+padding: 0;
+
+}
+
+body {
+width: 100%;
+font-family: 'Girloy', sans-serif;
+}
+.header {
+background-color: #ffffff;
+position: relative;
+}
+.header-logo img:nth-child(1) {
+position: absolute;
+top: 65px;
+left: 120px;
+width: 16.53px;
+height: 60.05px;
+}
+.header-logo img:nth-child(2) {
+position: absolute;
+left: 133px;
+top: 71.81px;
+}
+.header-logo img:nth-child(3) {
+position: absolute;
+top: 76.7px;
+left: 124.79px;
+}
+.header-logo img:nth-child(4) {
+position: absolute;
+top: 76.7px;
+left: 136.49px;
+}
+.header-logo img:nth-child(5) {
+position: absolute;
+top: 109.69px;
+left: 134.04px;
+}
+.header-logo img:nth-child(6) {
+position: absolute;
+top: 119.29px;
+left: 124.27px;
+}
+
+.store-name {
+ position: absolute;
+ left: 160px;
+ top: 72px;
+ text-transform: uppercase;
+ font-size: 24px; 
+ line-height: 30px;
+ font-weight: bolder;  
+}
+.city {
+position: absolute;
+top: 72px;
+left: 320px;
+font-size: 12px;
+line-height: 14px;
+}
+.select-city {
+    border: none;
+    font-size: 11px;
+    height: 20px;
+    width: 70px;
+    font-weight: bolder;
+    background: url("../img/arrow.png") no-repeat right 0px top 5px, url("../img/decor.jfif") no-repeat left 0px top 17px; 
+    line-height: 13px;
+    color: #C6A464;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    
+}
+.phone {
+    
+    position: absolute;
+    width: 176x;
+    height: 19px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bolder;
+    top: 105px;
+    left: 320px;
+}
+.feedback a {
+    position: absolute;
+    left: 320px;
+    top: 127px;
+    width: 176px;
+    height: 19px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #C6A464;
+}
+.menu {
+  position: absolute;  
+  left: 526px;
+  top: 129px;
+  width: 624px;
+  height: 19px;
+  font-size: 13px;
+  line-height: 16px;
+}
+.menu a {
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 5px;
+}
+.whatsapp img:nth-child(1) {
+   position: absolute;
+   top: 78px;
+   left: 528px;
+}
+.whatsapp img:nth-child(2) {
+   position: absolute;
+   top: 82.22px;
+   left: 532.7px;
+}
+.telegram img {
+   position: absolute;
+   top: 78.08px;
+   left: 564px;
+}
+ .viber img:nth-child(1) {
+ position: absolute;
+ top: 78.08px;
+ left: 605.97px;
+ }
+ .viber img:nth-child(2) {
+    position: absolute;
+    top: 82.98px;
+    left: 609.88px;
+ }
+ .viber img:nth-child(3) {
+    position: absolute;
+    top: 83.64px;
+    left: 615.06px;
+ }
+ .viber img:nth-child(4) {
+    position: absolute;
+    top: 81.21px;
+    left: 615.66px;
+ }
+ .search input {
+     position: absolute;
+     left: 676px;
+     top: 72px;
+     width: 448px;
+     height: 30px;
+     background: #f4f8fb url("../img/search.jpg") no-repeat right 11.7px top 8px ;
+     color: #B3BDC3;
+     border-radius: 3px;
+     border: none;
+     padding-left: 15px;
+ }
+ .sign input {
+    position: absolute;
+    left: 1204px;
+    top: 72px;
+    width: 104px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 3%;
+    border: 2px solid rgb(91, 132, 180);
+ }
+ .like img:nth-child(1) {
+    position: absolute;
+    left: 1215px;
+    top: 116px; 
+ }
+ .like img:nth-child(2) {
+    position: absolute;
+    left: 1232px;
+    top: 116px; 
+ }
+ .like img:nth-child(3) {
+    position: absolute;
+    left: 1238px;
+    top: 121px; 
+ }
+ .basket img:nth-child(1) {
+   position: absolute;
+   top: 116px;
+   left: 1258px;
+ }
+ .basket img:nth-child(2) {
+   position: absolute;
+   top: 116px;
+   left: 1278px;
+ }
+ .basket img:nth-child(3) {
+   position: absolute;
+   top: 121px;
+   left: 1285px;
+ }
