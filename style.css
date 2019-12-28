@@ -475,17 +475,20 @@ background: none;
    height: 30px;
    margin-bottom: 15px;
    width: 40px;
-   height: 40px;
+   height: 30px;
    cursor: pointer;
    position: relative;
+   
+   
   }  
+  
 .catalog li {
-   padding: 20px 6px 10px 45px;
+   padding: 20px 6px 10px 75px;
+   border: 1px solid rgba(173, 163, 163, 0.336);
 }
 
   input.toggleMenu:checked ~ ul{
    display: block;
-   
   }   
 
 
@@ -508,57 +511,47 @@ background: none;
 
 
 .catalog li:nth-child(1) {
-background: url("../img/sale.png") no-repeat top 18px left 10px;
+background: url("../img/sale.png") no-repeat top 18px left 20px;
 background-size: 22px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(2) {
-background: url("../img/brend1.png") no-repeat top 16px left 11px , url("../img/brend2.png") no-repeat top 22px left 16px;
+background: url("../img/brend1.png") no-repeat top 16px left 21px , url("../img/brend2.png") no-repeat top 22px left 26px;
 background-size: 20px, 10px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(3) {
-background: url("../img/luster.png") no-repeat top 15px left 12px;
+background: url("../img/luster.png") no-repeat top 15px left 22px;
 background-size: 20px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(4) {
-background: url("../img/glow.png") no-repeat top 14px left 13px;
+background: url("../img/glow.png") no-repeat top 14px left 23px;
 background-size: 20px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(5) {
-background: url("../img/bra.png") no-repeat top 14px left 12px;
+background: url("../img/bra.png") no-repeat top 14px left 22px;
 background-size: 20px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(6) {
-background: url("../img/tablelamp.png") no-repeat top 13px left 15px;
+background: url("../img/tablelamp.png") no-repeat top 13px left 25px;
 background-size: 13px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(7) {
-background: url("../img/floorlamp.png") no-repeat top 15px left 14px;
+background: url("../img/floorlamp.png") no-repeat top 15px left 24px;
 background-size: 15px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(8) {
-background: url("../img/lamp.png") no-repeat top 14px left 14px;
+background: url("../img/lamp.png") no-repeat top 14px left 24px;
 background-size: 13px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(9) {
-background: url("../img/decoration.png") no-repeat top 15px left 13px;
+background: url("../img/decoration.png") no-repeat top 15px left 23px;
 background-size: 15px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(10) {
-background: url("../img/clock.png") no-repeat top 15px left 11px;
+background: url("../img/clock.png") no-repeat top 15px left 21px;
 background-size: 18px;
-border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(11) {
-background: url("../img/more1.png") no-repeat top 14px left 10px , url("../img/more2.png") no-repeat top 20px left 16px;
+background: url("../img/more1.png") no-repeat top 14px left 20px , url("../img/more2.png") no-repeat top 20px left 26px;
 background-size: 20px, 8px;
 }
 
@@ -572,6 +565,15 @@ background-size: 20px, 8px;
    font-weight: bolder;
    position: static;
    color: rgb(25, 25, 59);
+}
+.catalog a:hover {
+   color: #ffffff;
+}
+.catalog li:hover {
+   background-color: #6f7994;
+}
+.catalog li:active {
+   background-color: #2d313b;
 }
 
 
