@@ -2,53 +2,53 @@
 * {
 margin: 0;
 padding: 0;
-
 }
 
 body {
-width: 100%;
+width: 1920px;
 font-family: 'Girloy', sans-serif;
 }
 .header {
 background-color: #ffffff;
 position: relative;
+height: 177px;
 }
 .header-logo img:nth-child(1) {
 position: absolute;
 top: 65px;
-left: 120px;
+left: 363px;
 width: 16.53px;
 height: 60.05px;
 }
 .header-logo img:nth-child(2) {
 position: absolute;
-left: 133px;
+left: 376px;
 top: 71.81px;
 }
 .header-logo img:nth-child(3) {
 position: absolute;
 top: 76.7px;
-left: 124.79px;
+left: 367.79px;
 }
 .header-logo img:nth-child(4) {
 position: absolute;
 top: 76.7px;
-left: 136.49px;
+left: 379.49px;
 }
 .header-logo img:nth-child(5) {
 position: absolute;
 top: 109.69px;
-left: 134.04px;
+left: 377.04px;
 }
 .header-logo img:nth-child(6) {
 position: absolute;
 top: 119.29px;
-left: 124.27px;
+left: 367.27px;
 }
 
 .store-name {
  position: absolute;
- left: 160px;
+ left: 403px;
  top: 72px;
  text-transform: uppercase;
  font-size: 24px; 
@@ -58,7 +58,7 @@ left: 124.27px;
 .city {
 position: absolute;
 top: 72px;
-left: 320px;
+left: 563px;
 font-size: 12px;
 line-height: 14px;
 }
@@ -80,17 +80,17 @@ line-height: 14px;
 .phone {
     
     position: absolute;
-    width: 176x;
+    width: 176px;
     height: 19px;
     font-size: 18px;
     line-height: 22px;
     font-weight: bolder;
     top: 105px;
-    left: 320px;
+    left: 563px;
 }
 .feedback a {
     position: absolute;
-    left: 320px;
+    left: 563px;
     top: 127px;
     width: 176px;
     height: 19px;
@@ -100,7 +100,7 @@ line-height: 14px;
 }
 .menu {
   position: absolute;  
-  left: 526px;
+  left: 769px;
   top: 129px;
   width: 624px;
   height: 19px;
@@ -117,53 +117,65 @@ line-height: 14px;
 .whatsapp img:nth-child(1) {
    position: absolute;
    top: 78px;
-   left: 528px;
+   left: 771px;
 }
 .whatsapp img:nth-child(2) {
    position: absolute;
    top: 82.22px;
-   left: 532.7px;
+   left: 775.7px;
 }
 .telegram img {
    position: absolute;
    top: 78.08px;
-   left: 564px;
+   left: 807px;
 }
  .viber img:nth-child(1) {
  position: absolute;
  top: 78.08px;
- left: 605.97px;
+ left: 848.97px;
  }
  .viber img:nth-child(2) {
     position: absolute;
     top: 82.98px;
-    left: 609.88px;
+    left: 852.88px;
  }
  .viber img:nth-child(3) {
     position: absolute;
     top: 83.64px;
-    left: 615.06px;
+    left: 858.66px;
  }
  .viber img:nth-child(4) {
     position: absolute;
     top: 81.21px;
-    left: 615.66px;
+    left: 858.66px;
  }
- .search input {
+ .search-box {
      position: absolute;
-     left: 676px;
+     left: 934px;
      top: 72px;
-     width: 448px;
-     height: 30px;
-     background: #f4f8fb url("../img/search.jpg") no-repeat right 11.7px top 8px ;
+     background: #f4f8fb;
+ }
+ .search-txt {
+    border: none;
+    background: #f4f8fb;
      color: #B3BDC3;
      border-radius: 3px;
      border: none;
      padding-left: 15px;
+     width: 420px;
+     height: 30px;
  }
+ .search-btn{
+    padding-right: 11px;
+    
+ }
+ .search-btn img {
+    width: 11px;
+    height: 11px;
+   }
  .sign input {
     position: absolute;
-    left: 1204px;
+    left: 1427px;
     top: 72px;
     width: 104px;
     height: 30px;
@@ -173,31 +185,417 @@ line-height: 14px;
  }
  .like img:nth-child(1) {
     position: absolute;
-    left: 1215px;
+    left: 1438px;
     top: 116px; 
  }
  .like img:nth-child(2) {
     position: absolute;
-    left: 1232px;
+    left: 1455px;
     top: 116px; 
  }
  .like img:nth-child(3) {
     position: absolute;
-    left: 1238px;
+    left: 1461px;
     top: 121px; 
  }
  .basket img:nth-child(1) {
    position: absolute;
    top: 116px;
-   left: 1258px;
+   left: 1481px;
  }
  .basket img:nth-child(2) {
    position: absolute;
    top: 116px;
-   left: 1278px;
+   left: 1501px;
  }
  .basket img:nth-child(3) {
    position: absolute;
    top: 121px;
-   left: 1285px;
+   left: 1508px;
  }
+
+
+
+ .catalog {
+    position: relative;
+    height: 155px;
+    background-color:  #FAFBFC;
+ }
+ .catalog a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bolder;
+ }
+ .catalog li {
+    list-style-type: none;
+ }
+.catalog .sale {
+   
+   position: absolute;
+   left: 362px;
+   top: 92px;
+}
+#sale {
+   position: absolute;
+   top: 44px;
+   left: 389px;
+}
+.catalog .brends {
+   
+   position: absolute;
+   left: 491px;
+   top: 92px;
+}
+#brends1 {
+   position: absolute;
+   left: 501px;
+   top: 45px;
+}
+#brends2 {
+   position: absolute;
+   left: 509px;
+   top: 54px;
+}
+.catalog .luster {
+   position: absolute;
+   left: 599px;
+   top: 92px;
+}
+#luster {
+   position: absolute;
+   left: 617px;
+   top: 44px;
+}
+.catalog .glow {
+   position: absolute;
+   left: 704px;
+   top: 92px;
+}
+#glow {
+position: absolute;
+left: 733px;
+top: 46px;
+}
+.catalog .bra {
+   position: absolute;
+   left: 849px;
+   top: 92px;
+}
+#bra {
+position: absolute;
+top: 44px;
+left: 845px;
+}
+.catalog .table-lamp {
+   position: absolute;
+   left: 927px;
+   top: 92px;
+}
+#tablelamp {
+position: absolute;
+left: 959px;
+top: 44px;
+}
+.catalog .floor-lamp {
+   position: absolute;
+   left: 1053px;
+   top: 92px;
+}
+#floorlamp {
+position: absolute;
+left: 1072.26px;
+top: 44px;
+}
+.catalog .lamp {
+   position: absolute;
+   left: 1169px;
+   top: 92px;
+}
+#lamp {
+position: absolute;
+left: 1182px;
+top: 44px;
+}
+.catalog .decoration {
+   position: absolute;
+   left: 1257px;
+   top: 92px;
+}
+#decoration {
+position: absolute;
+left: 1292px;
+top: 44px;
+}
+.catalog .clock {
+   position: absolute;
+   left: 1392px;
+   top: 92px;
+}
+#clock {
+position: absolute;
+left: 1395px;
+top: 44px;
+}
+.catalog .more {
+   position: absolute;
+   left: 1481px;
+   top: 92px;
+}
+#more1 {
+position: absolute;
+left: 1490px;
+top: 45px;
+} 
+#more2 {
+position: absolute;
+left: 1500px;
+top: 55px;
+} 
+
+
+.catalog [type="checkbox"]{
+   display: none;
+  }  
+  .catalog label.toggleMenu{
+   background: #C9C9C9;
+   display: none;
+  }  
+
+
+
+
+
+@media all and (max-width: 800px) {
+.body {
+width: 100%;
+
+}
+.header {
+height: 80px;
+
+} 
+.header-logo {
+   display: none;
+}
+.store-name {
+   left: 123px;
+   top: 22px;
+   font-size: 18px;
+   line-height: 18px;
+}
+.city {
+   display: none;;
+}
+.phone {
+   display: none;
+}
+.feedback {
+   display: none;
+}
+.share-social {
+   display: none;
+}
+.menu {
+   display: none;
+}
+
+.search-txt {
+   display: none;
+
+}
+
+.search-box {
+   left: 62px;
+   top: 28px;   
+   width: 17px;
+   height: 17px;
+   padding-right: 0;
+   background: none;
+}
+.search-box img {
+   width: 17px;
+   height: 17px;
+   padding-right: 0;
+  
+}
+.sign {
+   display: none;
+}
+.like {
+   display: none;
+}
+.basket img:nth-child(1) {
+   
+   top: 24px;
+   left: 257px;
+ }
+ .basket img:nth-child(2) {
+   
+   top: 25.67px;
+   left: 277px;
+ }
+ .basket img:nth-child(3) {
+  display: none;
+ }
+ .basket img:nth-child(4) {
+   position: absolute;
+   top: 30.67px;
+   left: 284px;
+ }
+ .catalog img {
+    display: none;
+ }
+.catalog {
+overflow: hidden;
+position: absolute;
+top: 28.25px;
+height: 100%;
+width: 130px;
+margin-left: 26px;
+background: none;
+
+}
+.catalog ul {  
+   
+   display: none;
+   background-color: rgba(240, 202, 121, 0.397);
+}
+.catalog [type="checkbox"]{
+   display: none;
+  }  
+  .catalog label.toggleMenu{
+   
+   background: url("../img/string.png") no-repeat top 0 left 6px , url("../img/string.png") no-repeat top 6.25px left 6px , url("../img/string.png") no-repeat top 12.5px left 6px;
+   display: block;
+   height: 18px;
+   margin-bottom: 16px;
+   width: 30px;
+   cursor: pointer;
+   position: relative;
+  }  
+.catalog li {
+   padding: 5px 6px 5px 30px;
+
+}
+
+  input.toggleMenu:checked ~ ul{
+   display: block;
+   
+  }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog li:nth-child(1) {
+background: url("../img/sale.png") no-repeat top 3px left 4px;
+background-size: 20px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(2) {
+background: url("../img/brend1.png") no-repeat top 2px left 4px , url("../img/brend2.png") no-repeat top 8px left 9px;
+background-size: 20px, 10px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(3) {
+background: url("../img/luster.png") no-repeat top 2px left 5px;
+background-size: 20px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(4) {
+background: url("../img/glow.png") no-repeat top 3px left 5px;
+background-size: 20px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(5) {
+background: url("../img/bra.png") no-repeat top 2px left 5px;
+background-size: 20px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(6) {
+background: url("../img/tablelamp.png") no-repeat top 2px left 5px;
+background-size: 13px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(7) {
+background: url("../img/floorlamp.png") no-repeat top 2px left 5px;
+background-size: 15px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(8) {
+background: url("../img/lamp.png") no-repeat top 2px left 5px;
+background-size: 13px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(9) {
+background: url("../img/decoration.png") no-repeat top 2px left 5px;
+background-size: 15px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(10) {
+background: url("../img/clock.png") no-repeat top 2px left 4px;
+background-size: 18px;
+border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+}
+.catalog li:nth-child(11) {
+background: url("../img/more1.png") no-repeat top 2px left 3.5px , url("../img/more2.png") no-repeat top 7.5px left 10px;
+background-size: 20px, 8px;
+}
+.catalog .sale {
+   
+   position: static;
+}
+.catalog .brends {
+   position: static;
+}
+.catalog .luster {
+   position: static;
+}
+.catalog .glow {
+   position: static;
+}
+
+.catalog .bra {
+   position: static;
+}
+.catalog .table-lamp {
+   position: static;
+}
+.catalog .floor-lamp {
+   position: static;
+}
+.catalog .lamp {
+   position: static;
+}
+.catalog .decoration {
+   position: static;
+}
+.catalog .clock {
+   position: static;
+}
+.catalog .more {
+   position: static;
+}
+
+
+
+
+
+}
