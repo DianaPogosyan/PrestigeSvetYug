@@ -407,7 +407,7 @@ height: 80px;
 }
 
 .search-box {
-   left: 62px;
+   left: 68px;
    top: 28px;   
    width: 17px;
    height: 17px;
@@ -452,7 +452,7 @@ overflow: hidden;
 position: absolute;
 top: 28.25px;
 height: 100%;
-width: 130px;
+width: 140px;
 margin-left: 26px;
 background: none;
 
@@ -460,7 +460,7 @@ background: none;
 .catalog ul {  
    
    display: none;
-   background-color: rgba(240, 202, 121, 0.397);
+   background-color: rgba(228, 221, 204, 0.397);
 }
 .catalog [type="checkbox"]{
    display: none;
@@ -476,7 +476,7 @@ background: none;
    position: relative;
   }  
 .catalog li {
-   padding: 5px 6px 5px 30px;
+   padding: 5px 6px 5px 37px;
 
 }
 
@@ -505,57 +505,58 @@ background: none;
 
 
 .catalog li:nth-child(1) {
-background: url("../img/sale.png") no-repeat top 3px left 4px;
-background-size: 20px;
+background: url("../img/sale.png") no-repeat top 5px left 6px;
+background-size: 22px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
+padding-top: 8px;
 }
 .catalog li:nth-child(2) {
-background: url("../img/brend1.png") no-repeat top 2px left 4px , url("../img/brend2.png") no-repeat top 8px left 9px;
+background: url("../img/brend1.png") no-repeat top 2px left 6px , url("../img/brend2.png") no-repeat top 8px left 11px;
 background-size: 20px, 10px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(3) {
-background: url("../img/luster.png") no-repeat top 2px left 5px;
+background: url("../img/luster.png") no-repeat top 2px left 7px;
 background-size: 20px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(4) {
-background: url("../img/glow.png") no-repeat top 3px left 5px;
+background: url("../img/glow.png") no-repeat top 3px left 7px;
 background-size: 20px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(5) {
-background: url("../img/bra.png") no-repeat top 2px left 5px;
+background: url("../img/bra.png") no-repeat top 2px left 7px;
 background-size: 20px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(6) {
-background: url("../img/tablelamp.png") no-repeat top 2px left 5px;
+background: url("../img/tablelamp.png") no-repeat top 2px left 9px;
 background-size: 13px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(7) {
-background: url("../img/floorlamp.png") no-repeat top 2px left 5px;
+background: url("../img/floorlamp.png") no-repeat top 2px left 9px;
 background-size: 15px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(8) {
-background: url("../img/lamp.png") no-repeat top 2px left 5px;
+background: url("../img/lamp.png") no-repeat top 2px left 9px;
 background-size: 13px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(9) {
-background: url("../img/decoration.png") no-repeat top 2px left 5px;
+background: url("../img/decoration.png") no-repeat top 2px left 8px;
 background-size: 15px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(10) {
-background: url("../img/clock.png") no-repeat top 2px left 4px;
+background: url("../img/clock.png") no-repeat top 2px left 7px;
 background-size: 18px;
 border-bottom: 1px solid rgba(192, 174, 174, 0.274);
 }
 .catalog li:nth-child(11) {
-background: url("../img/more1.png") no-repeat top 2px left 3.5px , url("../img/more2.png") no-repeat top 7.5px left 10px;
+background: url("../img/more1.png") no-repeat top 2px left 6px , url("../img/more2.png") no-repeat top 8px left 12px;
 background-size: 20px, 8px;
 }
 .catalog .sale {
