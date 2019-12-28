@@ -452,7 +452,7 @@ background-size: 85%;
 .catalog {
 overflow: hidden;
 position: absolute;
-top: 7.4vh;
+top: 6.6vh;
 height: 100%;
 width: 250px;
 margin-left: 7vw;
@@ -469,15 +469,15 @@ background: none;
   }  
   .catalog label.toggleMenu{
    
-   background: url("../img/string.png") no-repeat top 0 left 6px , url("../img/string.png") no-repeat top 10px left 6px , url("../img/string.png") no-repeat top 20px left 6px;
+   background: url("../img/string.png") no-repeat top 5px left 6px , url("../img/string.png") no-repeat top 15px left 6px , url("../img/string.png") no-repeat top 25px left 6px;
    background-size: 30px;
    display: block;
-   height: 30px;
+   height: 35px;
    margin-bottom: 15px;
-   width: 40px;
-   height: 30px;
+   width: 42px;
    cursor: pointer;
    position: relative;
+
    
    
   }  
