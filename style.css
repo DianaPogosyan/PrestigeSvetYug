@@ -370,6 +370,7 @@ top: 55px;
 @media all and (max-width: 800px) {
 body {
    width: 100%;
+  
 }
 .header {
 height: 130px;
@@ -458,6 +459,7 @@ width: 250px;
 margin-left: 7vw;
 background: none;
 
+
 }
 .catalog ul {  
    
@@ -484,7 +486,7 @@ background: none;
   
 .catalog li {
    padding: 20px 6px 10px 75px;
-   border: 1px solid rgba(173, 163, 163, 0.336);
+   
 }
 
   input.toggleMenu:checked ~ ul{
