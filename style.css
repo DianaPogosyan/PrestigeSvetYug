@@ -372,8 +372,9 @@ body {
    width: 100%;
 }
 .header {
-height: 20vh;
-
+height: 130px;
+background: url("../img/line.png") no-repeat left 40% bottom 0;
+background-size: 85%;
 } 
 .header-logo {
    display: none;
@@ -381,7 +382,7 @@ height: 20vh;
 .store-name {
    left: 37vw;
    top: 5.5vh;
-   font-size: 30px;
+   font-size: 25px;
    line-height: 25px;
    font-weight: bold;
 }
@@ -461,7 +462,7 @@ background: none;
 .catalog ul {  
    
    display: none;
-   background-color: rgba(228, 221, 204, 0.397);
+   background-color: rgba(245, 242, 236, 0.932);
 }
 .catalog [type="checkbox"]{
    display: none;
