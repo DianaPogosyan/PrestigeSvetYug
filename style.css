@@ -383,10 +383,9 @@
    @media all and (max-width: 800px) {
    body {
       width: 100%;
-     
    }
    .header {
-   margin-left: 0;;
+   margin-left: 0;
    height: 130px;
    background: url("./img/line.png") no-repeat left 40% bottom 0;
    background-size: 85%;
@@ -402,7 +401,7 @@
       font-weight: bold;
    }
    .city {
-      display: none;;
+      display: none;
    }
    .phone {
       display: none;
@@ -458,7 +457,7 @@
     }
     .basket img:nth-child(4) {
       position: absolute;
-      top: 7.9vh;
+      top: 7.6vh;
       left: 84.2vw;
     }
     .catalog img {
@@ -472,14 +471,13 @@
    width: 250px;
    margin-left: 7vw;
    background: none;
-   
-   
+
    }
    .margin-catalog {
-      display: none;
+      background-color: white;
    }
    .catalog ul {  
-      
+      border: 1px solid rgba(228, 221, 221, 0.301);
       display: none;
       background-color: rgba(245, 242, 236, 0.932);
    }
@@ -496,14 +494,14 @@
       margin-bottom: 15px;
       cursor: pointer;
       position: relative;
-   
+      
       
       
      }  
      
    .catalog li {
       padding: 20px 6px 10px 75px;
-      
+      border: 1px solid rgba(228, 221, 221, 0.301);
    }
    
      input.toggleMenu:checked ~ ul{
