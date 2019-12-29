@@ -424,7 +424,7 @@
    
    .search-box {
       left: 23vw;
-      top: 7.3vh;   
+      top: 7vh;   
       width: 5vw;
       height: auto;
       padding-right: 0;
@@ -467,7 +467,7 @@
    .catalog {
    overflow: hidden;
    position: absolute;
-   top: 6.6vh;
+   top: 6vh;
    height: 100%;
    margin-left: 7vw;
    background: none;
@@ -503,7 +503,7 @@
      }  
      
    .catalog li {
-      padding: 20px 6px 10px 75px;
+      padding: 20px 20px 10px 65px;
       border: 1px solid rgba(228, 221, 221, 0.301);
    }
    
