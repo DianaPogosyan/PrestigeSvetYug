@@ -89,6 +89,7 @@
        font-weight: bolder;
        top: 105px;
        left: 233px;
+       word-wrap: nowrap;
    }
    .feedback a {
        position: absolute;
