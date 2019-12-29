@@ -59,7 +59,7 @@
    .city {
    position: absolute;
    top: 70px;
-   left: 233px;
+   left: 223px;
    font-size: 12px;
    line-height: 14px;
    }
@@ -88,12 +88,12 @@
        line-height: 22px;
        font-weight: bolder;
        top: 105px;
-       left: 233px;
+       left: 223px;
        word-wrap: nowrap;
    }
    .feedback a {
        position: absolute;
-       left: 233px;
+       left: 223px;
        top: 127px;
        width: 176px;
        height: 19px;
