@@ -224,6 +224,7 @@
     .catalog {
        position: relative;
        height: 155px;
+       width: 100%;
        background-color:  #FAFBFC;
        margin-left: 10%;
     }
@@ -422,7 +423,7 @@
    }
    
    .search-box {
-      left: 19vw;
+      left: 23vw;
       top: 7.3vh;   
       width: 5vw;
       height: auto;
@@ -468,9 +469,9 @@
    position: absolute;
    top: 6.6vh;
    height: 100%;
-   width: 250px;
    margin-left: 7vw;
    background: none;
+   width: auto;
 
    }
    .margin-catalog {
@@ -480,7 +481,9 @@
       border: 1px solid rgba(228, 221, 221, 0.301);
       display: none;
       background-color: rgba(245, 242, 236, 0.932);
+      
    }
+
    .catalog [type="checkbox"]{
       display: none;
      }  
