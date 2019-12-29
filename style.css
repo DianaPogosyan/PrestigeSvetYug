@@ -59,7 +59,7 @@
    .city {
    position: absolute;
    top: 70px;
-   left: 223px;
+   left: 233px;
    font-size: 12px;
    line-height: 14px;
    }
@@ -82,18 +82,18 @@
    .phone {
        
        position: absolute;
-       width: 176px;
+       width: auto;
        height: 19px;
        font-size: 18px;
-       line-height: 22px;
+       border: solid red;
        font-weight: bolder;
        top: 105px;
-       left: 223px;
-       word-wrap: nowrap;
+       left: 233px;
+       white-space: nowrap;
    }
    .feedback a {
        position: absolute;
-       left: 223px;
+       left: 233px;
        top: 127px;
        width: 176px;
        height: 19px;
