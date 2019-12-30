@@ -441,13 +441,14 @@
    margin-left: 0;
    height: 80px;
    background: url("./img/line.svg") no-repeat left 40% bottom 0;
-   background-size: 85%;
+   background-size: 75%;
+   
    } 
    .header-logo {
       display: none;
    }
    .store-name {
-      left: 41%;
+      left: 39%;
       top: 20px;
       font-size: 18px;
       line-height: 18px;
@@ -475,7 +476,7 @@
    }
    
    .search-box {
-      left: 24.5%;
+      left: 18%;
       top: 27px;   
       height: auto;
       padding-right: 0;
@@ -492,24 +493,27 @@
    .like {
       display: none;
    }
+   .basket {
+      left: 80%;
+   }
    .basket img:nth-child(1) {
       
       top: 26px;
-      left: 76vw;
-      width: 26px;
+      left: 80%;
+      width: 23px;
     }
     .basket img:nth-child(2) {
       
-      top: 30px;
-      left: 82vw;
+      top: 28px;
+      left: 85.5%;
     }
     .basket img:nth-child(3) {
      display: none;
     }
     .basket img:nth-child(4) {
       position: absolute;
-      top: 35.5px;
-      left: 83.7vw;
+      top: 33.5px;
+      left: 87.5%;
     }
     .catalog img {
        display: none;
@@ -519,7 +523,7 @@
    position: absolute;
    top: 23px;
    height: 100%;
-   margin-left: 13.2%;
+   margin-left: 6%;
    background: none;
    width: auto;
 
