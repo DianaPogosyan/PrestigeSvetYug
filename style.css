@@ -117,7 +117,7 @@
        font-size: 11px;
        height: 20px;
        width: 80px;
-       font-weight: bolder;
+       font-family: "Gilroybold";
        background: url("./img/arrow.svg") no-repeat right 0px top 9px, url("./img/decor.jfif") no-repeat left 0px top 17px; 
        line-height: 13px;
        color: #C6A464;
@@ -129,13 +129,12 @@
        
    }
    .phone {
-      font-family: 'Gilroymedium';
+      font-family: 'Gilroybold';
        position: absolute;
        width: auto;
        height: 19px;
        font-size: 18px;
        line-height: 22px;
-       font-weight: bolder;
        top: 101px;
        left: 200px;
        white-space: nowrap;
@@ -185,23 +184,23 @@
    }
     .viber img:nth-child(1) {
     position: absolute;
-    top: 76.08px;
+    top: 76.8px;
     left: 485px;
     }
     .viber img:nth-child(2) {
        position: absolute;
-       top: 80.98px;
-       left: 488px;
+       top: 81.6px;
+       left: 488.5px;
     }
     .viber img:nth-child(3) {
        position: absolute;
-       top: 81.94px;
-       left: 494.9px;
+       top: 82.9px;
+       left: 494.4px;
     }
     .viber img:nth-child(4) {
        position: absolute;
-       top: 79.21px;
-       left: 496px;
+       top: 80px;
+       left: 495px;
     }
     .search-box {
         position: absolute;
@@ -239,6 +238,7 @@
        background-color: #ffffff;
        border-radius: 3%;
        border: 2px solid rgb(91, 132, 180);
+       cursor: pointer;
     }
     .like img:nth-child(1) {
        position: absolute;
@@ -266,12 +266,12 @@
     .basket img:nth-child(2) {
       position: absolute;
       top: 116px;
-      left: 1139px; 
+      left: 1134px; 
     }
     .basket img:nth-child(3) {
       position: absolute;
       top: 121px;
-      left: 1145px; 
+      left: 1141px; 
     }
    
    .margin-catalog {
@@ -291,7 +291,7 @@
        text-decoration: none;
        font-size: 14px;
        line-height: 17px;
-       font-weight: bolder;
+       font-family: "Gilroybold";
     }
     .catalog li {
        list-style-type: none;
