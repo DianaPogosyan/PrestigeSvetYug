@@ -3,10 +3,56 @@
    margin: 0;
    padding: 0;
    }
-   
+  
+   @font-face {
+      font-family: "Gilroyextrabold";
+      src: url("./fonts/Gilroy/Gilroyextrabold/Gilroyextrabold.woff2") format("woff2");
+      src: url("./fonts/Gilroy/Gilroyextrabold/Gilroyextrabold.woff") format("woff"); 
+      src: url("./fonts/Gilroy/Gilroyextrabold/Gilroyextrabold.ttf") format("truetype");
+      font-weight: 800;
+      font-style: normal;
+  }
+
+  @font-face {
+   font-family: "Gilroy";
+   src: url('./fonts/Gilroy/Gilroylight/Gilroylight.woff2') format('woff2');
+   src: url('./fonts/Gilroy/Gilroylight/Gilroylight.woff') format('woff');
+   src: url('./fonts/Gilroy/Gilroylight/Gilroylight.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Gilroymedium';
+   src: url('./fonts/Gilroy/gilroymedium/Gilroy-Medium.eot');
+   src: 
+       url('./fonts/Gilroy/gilroymedium/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Gilroy/gilroymedium/Gilroy-Medium.woff') format('woff'),
+       url('./fonts/Gilroy/gilroymedium/Gilroy-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'Gilroybold';
+   src: url('./fonts/Gilroy/Gilroybold/Gilroy-Bold.eot');
+   src:
+       url('./fonts/Gilroy/Gilroybold/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Gilroy/Gilroybold/Gilroy-Bold.woff') format('woff'),
+       url('./fonts/Gilroy/Gilroybold/Gilroy-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+
+
+
+
+
    body {
    width: 100%;
-   font-family: 'Girloy', sans-serif;
+   font-family: "Gilroymedium";
    }
    .header {
    background-color: #ffffff;
@@ -16,7 +62,7 @@
    }
    .header-logo img:nth-child(1) {
    position: absolute;
-   top: 65px;
+   top: 64px;
    left: 0px;
    width: 16.53px;
    height: 60.05px;
@@ -24,22 +70,22 @@
    .header-logo img:nth-child(2) {
    position: absolute;
    left: 10px;
-   top: 69.81px;
+   top: 72.9px;
    }
    .header-logo img:nth-child(3) {
    position: absolute;
-   top: 74.7px;
+   top: 75.5px;
    left: 3.09px;
    }
    .header-logo img:nth-child(4) {
    position: absolute;
-   top: 74.7px;
+   top: 76px;
    left: 14.09px;
    }
    .header-logo img:nth-child(5) {
    position: absolute;
    top: 107.69px;
-   left: 12.54px;
+   left: 12.6px;
    }
    .header-logo img:nth-child(6) {
    position: absolute;
@@ -48,18 +94,18 @@
    }
    
    .store-name {
+    font-family: 'Gilroybold';
     position: absolute;
-    left: 40px;
-    top: 68px;
+    left: 41.6px;
+    top: 66.5px;
     text-transform: uppercase;
     font-size: 24px; 
     line-height: 30px;
-    font-weight: bolder;  
    }
    .city {
    position: absolute;
-   top: 70px;
-   left: 233px;
+   top: 66px;
+   left: 200px;
    font-size: 12px;
    line-height: 14px;
    }
@@ -69,7 +115,7 @@
        height: 20px;
        width: 80px;
        font-weight: bolder;
-       background: url("../img/arrow.png") no-repeat right 0px top 6px, url("../img/decor.jfif") no-repeat left 0px top 17px; 
+       background: url("../img/arrow.svg") no-repeat right 0px top 9px, url("../img/decor.jfif") no-repeat left 0px top 17px; 
        line-height: 13px;
        color: #C6A464;
        -webkit-appearance: none;
@@ -80,20 +126,21 @@
        
    }
    .phone {
-       
+      font-family: 'Gilroymedium';
        position: absolute;
        width: auto;
        height: 19px;
        font-size: 18px;
+       line-height: 22px;
        font-weight: bolder;
-       top: 105px;
-       left: 233px;
+       top: 101px;
+       left: 200px;
        white-space: nowrap;
    }
    .feedback a {
        position: absolute;
-       left: 233px;
-       top: 127px;
+       left: 200px;
+       top: 125px;
        width: 176px;
        height: 19px;
        font-size: 11px;
@@ -102,8 +149,8 @@
    }
    .menu {
      position: absolute;  
-     left: 449px;
-     top: 129px;
+     left: 400px;
+     top: 127px;
      width: 624px;
      height: 19px;
      font-size: 13px;
@@ -118,42 +165,42 @@
    }
    .whatsapp img:nth-child(1) {
       position: absolute;
-      top: 78px;
-      left: 458px;
+      top: 76px;
+      left: 409px;
    }
    .whatsapp img:nth-child(2) {
       position: absolute;
-      top: 82.22px;
-      left: 463px;
+      top: 80.5px;
+      left: 414px;
    }
    .telegram img {
       position: absolute;
-      top: 78.08px;
-      left: 495px;
+      top: 76.08px;
+      left: 444px;
    }
     .viber img:nth-child(1) {
     position: absolute;
-    top: 78.08px;
-    left: 540px;
+    top: 76.08px;
+    left: 485px;
     }
     .viber img:nth-child(2) {
        position: absolute;
-       top: 82.98px;
-       left: 544px;
+       top: 80.98px;
+       left: 488px;
     }
     .viber img:nth-child(3) {
        position: absolute;
-       top: 83.94px;
-       left: 549.5px;
+       top: 81.94px;
+       left: 494.9px;
     }
     .viber img:nth-child(4) {
        position: absolute;
-       top: 81.21px;
-       left: 550.5px;
+       top: 79.21px;
+       left: 496px;
     }
     .search-box {
         position: absolute;
-        left: 600px;
+        left: 555px;
         top: 72px;
         background: #f4f8fb;
     }
@@ -164,7 +211,7 @@
         border-radius: 3px;
         border: none;
         padding-left: 15px;
-        width: 390px;
+        width: 409px;
         height: 30px;
     }
     .search-btn{
@@ -176,8 +223,11 @@
        height: 11px;
       }
     .sign input {
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: bolder;
        position: absolute;
-       left: 1077px;
+       left: 1063px;
        top: 72px;
        width: 104px;
        height: 30px;
@@ -187,33 +237,36 @@
     }
     .like img:nth-child(1) {
        position: absolute;
-       left: 1092px;
+       left: 1075px;
        top: 116px; 
     }
     .like img:nth-child(2) {
        position: absolute;
-       left: 1108px;
+       left: 1091px;
        top: 116px; 
     }
     .like img:nth-child(3) {
        position: absolute;
-       left: 1115px;
+       left: 1098px;
        top: 121px; 
+    }
+    .basket {
+      
     }
     .basket img:nth-child(1) {
       position: absolute;
-      top: 116px;
-      left: 1140px;
+      top: 114px;
+      left: 1116px;
     }
     .basket img:nth-child(2) {
       position: absolute;
       top: 116px;
-      left: 1160px;
+      left: 1139px; 
     }
     .basket img:nth-child(3) {
       position: absolute;
       top: 121px;
-      left: 1167px;
+      left: 1145px; 
     }
    
    .margin-catalog {
@@ -224,7 +277,6 @@
     .catalog {
        position: relative;
        height: 155px;
-       width: 100%;
        background-color:  #FAFBFC;
        margin-left: 10%;
     }
@@ -241,8 +293,8 @@
    .catalog .sale {
       
       position: absolute;
-      left: 0px;
-      top: 92px;
+      left: -2px;
+      top: 89px;
    }
    #sale {
       position: absolute;
@@ -252,33 +304,33 @@
    .catalog .brends {
       
       position: absolute;
-      left: 130px;
-      top: 92px;
+      left: 127px;
+      top: 89px;
    }
    #brends1 {
       position: absolute;
-      left: 143px;
+      left: 139px;
       top: 45px;
    }
    #brends2 {
       position: absolute;
-      left: 151px;
+      left: 147px;
       top: 54px;
    }
    .catalog .luster {
       position: absolute;
-      left: 240px;
-      top: 92px;
+      left: 243px;
+      top: 89px;
    }
    #luster {
       position: absolute;
-      left: 252px;
+      left: 253px;
       top: 44px;
    }
    .catalog .glow {
       position: absolute;
       left: 343px;
-      top: 92px;
+      top: 89px;
    }
    #glow {
    position: absolute;
@@ -287,77 +339,77 @@
    }
    .catalog .bra {
       position: absolute;
-      left: 490px;
-      top: 92px;
+      left: 486px;
+      top: 89px;
    }
    #bra {
    position: absolute;
    top: 44px;
-   left: 490px;
+   left: 483px;
    }
    .catalog .table-lamp {
       position: absolute;
-      left: 570px;
-      top: 92px;
+      left: 562px;
+      top: 89px;
    }
    #tablelamp {
    position: absolute;
-   left: 600px;
+   left: 596px;
    top: 44px;
    }
    .catalog .floor-lamp {
       position: absolute;
-      left: 700px;
-      top: 92px;
+      left: 689px;
+      top: 89px;
    }
    #floorlamp {
    position: absolute;
-   left: 720px;
+   left: 709px;
    top: 44px;
    }
    .catalog .lamp {
       position: absolute;
-      left: 815px;
-      top: 92px;
+      left: 805px;
+      top: 89px;
    }
    #lamp {
    position: absolute;
-   left: 830px;
+   left: 818px;
    top: 44px;
    }
    .catalog .decoration {
       position: absolute;
-      left: 910px;
-      top: 92px;
+      left: 892px;
+      top: 89px;
    }
    #decoration {
    position: absolute;
-   left: 945px;
+   left: 930px;
    top: 44px;
    }
    .catalog .clock {
       position: absolute;
-      left: 1050px;
-      top: 92px;
+      left: 1029px;
+      top: 89px;
    }
    #clock {
    position: absolute;
-   left: 1053px;
+   left: 1031px;
    top: 44px;
    }
    .catalog .more {
       position: absolute;
-      left: 1130px;
-      top: 92px;
+      left: 1118px;
+      top: 89px;
    }
    #more1 {
    position: absolute;
-   left: 1144px;
+   left: 1126px;
    top: 45px;
    } 
    #more2 {
    position: absolute;
-   left: 1154px;
+   left: 1137px;
    top: 55px;
    } 
    
@@ -373,10 +425,10 @@
    
    @media all and (min-width: 1800px) {
       .header {
-         margin-left: 20%;
+         margin-left: 19%;
       }
       .catalog {
-         margin-left: 20%;
+         margin-left: 18.9%;
       }
      }
    
@@ -387,18 +439,18 @@
    }
    .header {
    margin-left: 0;
-   height: 130px;
-   background: url("./img/line.png") no-repeat left 40% bottom 0;
+   height: 80px;
+   background: url("./img/line.svg") no-repeat left 40% bottom 0;
    background-size: 85%;
    } 
    .header-logo {
       display: none;
    }
    .store-name {
-      left: 37vw;
-      top: 5.5vh;
-      font-size: 20px;
-      line-height: 20px;
+      left: 41%;
+      top: 20px;
+      font-size: 18px;
+      line-height: 18px;
       font-weight: bold;
    }
    .city {
@@ -423,15 +475,14 @@
    }
    
    .search-box {
-      left: 23vw;
-      top: 7vh;   
-      width: 5vw;
+      left: 24.5%;
+      top: 27px;   
       height: auto;
       padding-right: 0;
       background: none;
    }
    .search-box img {
-      width: 5vw;
+      width: 17px;
       height: auto;
       padding-right: 0;
    }
@@ -443,23 +494,22 @@
    }
    .basket img:nth-child(1) {
       
-      top: 6.2vh;
-      left: 77vw;
-      width: 7vw;
+      top: 26px;
+      left: 76vw;
+      width: 26px;
     }
     .basket img:nth-child(2) {
       
-      top: 7vh;
-      left: 82.5vw;
-      width: 4.4vw;
+      top: 30px;
+      left: 82vw;
     }
     .basket img:nth-child(3) {
      display: none;
     }
     .basket img:nth-child(4) {
       position: absolute;
-      top: 7.6vh;
-      left: 84.2vw;
+      top: 35.5px;
+      left: 83.7vw;
     }
     .catalog img {
        display: none;
@@ -467,9 +517,9 @@
    .catalog {
    overflow: hidden;
    position: absolute;
-   top: 6vh;
+   top: 23px;
    height: 100%;
-   margin-left: 7vw;
+   margin-left: 13.2%;
    background: none;
    width: auto;
 
@@ -489,8 +539,8 @@
      }  
      .catalog label.toggleMenu{
       
-      background: url("./img/string.png") no-repeat top 5px left 6px , url("./img/string.png") no-repeat top 15px left 6px , url("./img/string.png") no-repeat top 25px left 6px;
-      background-size: 30px;
+      background: url("./img/string.svg") no-repeat top 5px left 6px , url("./img/string.svg") no-repeat top 10.5px left 6px , url("./img/string.svg") no-repeat top 16px left 6px;
+      background-size: 20px;
       display: block;
       height: 35px;
       width: 35px;
@@ -531,47 +581,47 @@
    
    
    .catalog li:nth-child(1) {
-   background: url("./img/sale.png") no-repeat top 18px left 20px;
+   background: url("./img/sale.svg") no-repeat top 18px left 20px;
    background-size: 22px;
    }
    .catalog li:nth-child(2) {
-   background: url("./img/brend1.png") no-repeat top 16px left 21px , url("./img/brend2.png") no-repeat top 22px left 26px;
+   background: url("./img/brend1.svg") no-repeat top 16px left 21px , url("./img/brend2.svg") no-repeat top 22px left 26px;
    background-size: 20px, 10px;
    }
    .catalog li:nth-child(3) {
-   background: url("./img/luster.png") no-repeat top 15px left 22px;
+   background: url("./img/luster.svg") no-repeat top 15px left 22px;
    background-size: 20px;
    }
    .catalog li:nth-child(4) {
-   background: url("./img/glow.png") no-repeat top 14px left 23px;
+   background: url("./img/glow.svg") no-repeat top 14px left 23px;
    background-size: 20px;
    }
    .catalog li:nth-child(5) {
-   background: url("./img/bra.png") no-repeat top 14px left 22px;
+   background: url("./img/bra.svg") no-repeat top 14px left 22px;
    background-size: 20px;
    }
    .catalog li:nth-child(6) {
-   background: url("./img/tablelamp.png") no-repeat top 13px left 25px;
+   background: url("./img/tablelamp.svg") no-repeat top 13px left 25px;
    background-size: 13px;
    }
    .catalog li:nth-child(7) {
-   background: url("./img/floorlamp.png") no-repeat top 15px left 24px;
+   background: url("./img/floorlamp.svg") no-repeat top 15px left 24px;
    background-size: 15px;
    }
    .catalog li:nth-child(8) {
-   background: url("./img/lamp.png") no-repeat top 14px left 24px;
+   background: url("./img/lamp.svg") no-repeat top 14px left 24px;
    background-size: 13px;
    }
    .catalog li:nth-child(9) {
-   background: url("./img/decoration.png") no-repeat top 15px left 23px;
+   background: url("./img/decoration.svg") no-repeat top 15px left 23px;
    background-size: 15px;
    }
    .catalog li:nth-child(10) {
-   background: url("./img/clock.png") no-repeat top 15px left 21px;
+   background: url("./img/clock.svg") no-repeat top 15px left 21px;
    background-size: 18px;
    }
    .catalog li:nth-child(11) {
-   background: url("./img/more1.png") no-repeat top 14px left 20px , url("./img/more2.png") no-repeat top 20px left 26px;
+   background: url("./img/more1.svg") no-repeat top 14px left 20px , url("./img/more2.svg") no-repeat top 20px left 26px;
    background-size: 20px, 8px;
    }
    
@@ -581,7 +631,7 @@
    
    
    .catalog .adapt {
-      font-size: 18px;
+    
       font-weight: bolder;
       position: static;
       color: rgb(25, 25, 59);
