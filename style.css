@@ -70,27 +70,29 @@
    .header-logo img:nth-child(2) {
    position: absolute;
    left: 10px;
-   top: 72.9px;
+   top: 72px;
    }
    .header-logo img:nth-child(3) {
    position: absolute;
    top: 75.5px;
-   left: 3.09px;
+   left: 3px;
+   height: 14px;
    }
    .header-logo img:nth-child(4) {
    position: absolute;
-   top: 76px;
-   left: 14.09px;
+   top: 75.5px;
+   left: 14px;
+   height: 14px;
    }
    .header-logo img:nth-child(5) {
    position: absolute;
    top: 107.69px;
-   left: 12.6px;
+   left: 13px;
    }
    .header-logo img:nth-child(6) {
    position: absolute;
-   top: 119.29px;
-   left: 3.27px;
+   top: 119px;
+   left: 3.5px;
    }
    
    .store-name {
@@ -116,7 +118,7 @@
        height: 20px;
        width: 80px;
        font-weight: bolder;
-       background: url("../img/arrow.svg") no-repeat right 0px top 9px, url("../img/decor.jfif") no-repeat left 0px top 17px; 
+       background: url("./img/arrow.svg") no-repeat right 0px top 9px, url("./img/decor.jfif") no-repeat left 0px top 17px; 
        line-height: 13px;
        color: #C6A464;
        -webkit-appearance: none;
@@ -433,6 +435,32 @@
       }
       .catalog {
          margin-left: 18.9%;
+      }
+     }
+   @media all and (max-width: 1400px) {
+      .header {
+         margin-left: 7%;
+      }
+      .catalog {
+         margin-left: 7%;
+      }
+     }
+   
+   @media all and (max-width: 1280px) {
+      .header {
+         margin-left: 4%;
+      }
+      .catalog {
+         margin-left: 4%;
+      }
+     }
+   
+   @media all and (min-width: 1440) , (max-width: 1440px) {
+      .header {
+         margin-left: 9%;
+      }
+      .catalog {
+         margin-left: 9%;
       }
      }
    
