@@ -108,6 +108,7 @@
    left: 200px;
    font-size: 12px;
    line-height: 14px;
+   font-family: "Gilroy";
    }
    .select-city {
        border: none;
@@ -146,6 +147,7 @@
        font-size: 11px;
        line-height: 14px;
        color: #C6A464;
+       font-family: "Gilroy";
    }
    .menu {
      position: absolute;  
@@ -155,6 +157,7 @@
      height: 19px;
      font-size: 13px;
      line-height: 16px;
+     font-family: "Gilroy";
    }
    .menu a {
      font-size: 13px;
@@ -279,6 +282,7 @@
        height: 155px;
        background-color:  #FAFBFC;
        margin-left: 10%;
+       font-weight: 400;
     }
     .catalog a {
        color: #000000;
@@ -314,8 +318,8 @@
    }
    #brends2 {
       position: absolute;
-      left: 147px;
-      top: 54px;
+      left: 148px;
+      top: 54.8px;
    }
    .catalog .luster {
       position: absolute;
